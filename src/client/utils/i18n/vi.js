@@ -60,5 +60,5 @@ export default {
   ADMIN_CONFIG_ITEM_TURNSTILE_SITE_KEY: 'Khóa trang web CAPTCHA Turnstile. Lấy từ: https://dash.cloudflare.com/?to=/:account/turnstile',
   ADMIN_CONFIG_ITEM_TURNSTILE_SECRET_KEY: 'Khóa bí mật CAPTCHA Turnstile',
   ADMIN_CONFIG_ITEM_QCLOUD_SECRET_ID: 'ID bí mật Tencent Cloud để phát hiện spam. Khi Tencent Cloud và Akismet được đặt cùng lúc, chỉ Tencent Cloud có hiệu lực. Đăng ký: https://twikoo.js.org/cms.html'
-  // ... (Thêm tất cả các bản dịch tiếng Việt khác vào đây)
+  // ... (Thêm tất cả các bản dịch tiếng Việt khác vào đây...)
 };
