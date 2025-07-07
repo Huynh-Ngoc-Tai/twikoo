@@ -134,7 +134,8 @@ export default {
     'Client version: ',
     'Клиент версияси: ',
     'クライアントバージョン：',
-    '클라이언트 버전: '
+    '클라이언트 버전: ',
+    viTranslations.ADMIN_CLIENT_VERSION
   ],
   ADMIN_SERVER_VERSION: [
     '云函数版本：',
@@ -143,7 +144,8 @@ export default {
     'Server version: ',
     'Сервернинг версияси: ',
     'サーバーサイドバージョン: ',
-    '서버 버전: '
+    '서버 버전: ',
+    viTranslations.ADMIN_SERVER_VERSION
   ],
   [S.AC]: [
     '评论管理',
@@ -152,7 +154,8 @@ export default {
     'Comment',
     'Изоҳ',
     'コメント管理',
-    '댓글 관리'
+    '댓글 관리',
+    viTranslations.ADMIN_COMMENT
   ],
   [S.AC + '_DELETE']: [
     '删除',
@@ -161,7 +164,8 @@ export default {
     'Delete',
     'Ўчирмоқ',
     '削除',
-    '삭제'
+    '삭제',
+    viTranslations.ADMIN_COMMENT_DELETE
   ],
   [S.AC + '_DELETE_CONFIRM']: [
     '确认删除？',
@@ -170,7 +174,8 @@ export default {
     'Confirm deletion?',
     'Ўчириш тасдиқлансинми?',
     '本当に削除しますか？',
-    '정말 삭제하시겠습니까?'
+    '정말 삭제하시겠습니까?',
+    viTranslations.ADMIN_COMMENT_DELETE_CONFIRM
   ],
   [S.AC + '_FILTER_ALL']: [
     '全部',
@@ -179,7 +184,8 @@ export default {
     'All',
     'Ҳаммаси',
     '全部',
-    '전체'
+    '전체',
+    viTranslations.ADMIN_COMMENT_FILTER_ALL
   ],
   [S.AC + '_FILTER_VISIBLE']: [
     '只看可见',
@@ -188,7 +194,8 @@ export default {
     'Visible',
     'Кўринадиган',
     '表示中のみ',
-    '표시 댓글'
+    '표시 댓글',
+    viTranslations.ADMIN_COMMENT_FILTER_VISIBLE
   ],
   [S.AC + '_FILTER_HIDDEN']: [
     '只看隐藏',
@@ -197,7 +204,8 @@ export default {
     'Hidden',
     'Яширилган',
     '非表示中のみ',
-    '숨김 댓글'
+    '숨김 댓글',
+    viTranslations.ADMIN_COMMENT_FILTER_HIDDEN
   ],
   [S.AC + '_HIDE']: [
     '隐藏',
@@ -206,7 +214,8 @@ export default {
     'Hide',
     'Яширмоқ',
     '非表示',
-    '숨기기'
+    '숨기기',
+    viTranslations.ADMIN_COMMENT_HIDE
   ],
   [S.AC + '_IS_SPAM_SUFFIX']: [
     ' (已隐藏)',
@@ -215,7 +224,8 @@ export default {
     ' (Hidden)',
     ' (Яширилган)',
     ' (非表示)',
-    ' (숨김 처리됨)'
+    ' (숨김 처리됨)',
+    viTranslations.ADMIN_COMMENT_IS_SPAM_SUFFIX
   ],
   [S.AC + '_SEARCH']: [
     '搜索',
@@ -224,7 +234,8 @@ export default {
     'Search',
     'Излаш',
     '検索',
-    '검색'
+    '검색',
+    viTranslations.ADMIN_COMMENT_SEARCH
   ],
   [S.AC + '_SEARCH_PLACEHOLDER']: [
     '搜索昵称、邮箱、网址、IP、评论正文、文章地址',
@@ -233,7 +244,8 @@ export default {
     'Search by nick, mail, website, IP, comment, or article path',
     'Тахаллус, почта, веб-сайт, ИП, шарҳ ёки мақола йўли бўйича излаш',
     '名前、メールアドレス、ウェブサイトURL、IPアドレス、コメント内容、記事のURLを検索',
-    '닉네임, 이메일, 웹사이트, IP, 댓글 내용, 게시글 주소로 검색'
+    '닉네임, 이메일, 웹사이트, IP, 댓글 내용, 게시글 주소로 검색',
+    viTranslations.ADMIN_COMMENT_SEARCH_PLACEHOLDER
   ],
   [S.AC + '_SHOW']: [
     '显示',
@@ -242,7 +254,8 @@ export default {
     'Show',
     'Кўрсатиш',
     '表示',
-    '표시'
+    '표시',
+    viTranslations.ADMIN_COMMENT_SHOW
   ],
   [S.AC + '_TOP']: [
     '置顶',
@@ -251,7 +264,8 @@ export default {
     'Pin',
     'Қадамоқ',
     '固定する',
-    '고정'
+    '고정',
+    viTranslations.ADMIN_COMMENT_TOP
   ],
   [S.AC + '_UNTOP']: [
     '取消置顶',
@@ -260,7 +274,8 @@ export default {
     'Unpin',
     'Қадоқни ечмоқ',
     '固定を解除',
-    '고정 해제'
+    '고정 해제',
+    viTranslations.ADMIN_COMMENT_UNTOP
   ],
   [S.AC + '_VIEW']: [
     '查看',
@@ -269,7 +284,8 @@ export default {
     'View',
     'Кўриниш',
     '閲覧',
-    '보기'
+    '보기',
+    viTranslations.ADMIN_COMMENT_VIEW
   ],
   ADMIN_CONFIG: [
     '配置管理',
@@ -278,7 +294,8 @@ export default {
     'Configuration',
     'Конфигурация',
     '設定管理',
-    '환경설정'
+    '환경설정',
+    viTranslations.ADMIN_CONFIG
   ],
   [S.ACC + '_COMMON']: [
     '通用',
@@ -287,7 +304,8 @@ export default {
     'General',
     'Умумий',
     '一般',
-    '일반'
+    '일반',
+    viTranslations.ADMIN_CONFIG_CATEGORY_COMMON
   ],
   [S.ACC + '_IM']: [
     '即时通知',
@@ -296,7 +314,8 @@ export default {
     'Instant notification',
     'Тезкор хабарнома',
     '即時通知',
-    '실시간 알림'
+    '실시간 알림',
+    viTranslations.ADMIN_CONFIG_CATEGORY_IM
   ],
   [S.ACC + '_MAIL']: [
     '邮件通知',
@@ -305,7 +324,8 @@ export default {
     'Email notification',
     'Электрон почта хабарномаси',
     'メール通知',
-    '이메일 알림'
+    '이메일 알림',
+    viTranslations.ADMIN_CONFIG_CATEGORY_MAIL
   ],
   [S.ACC + '_PLUGIN']: [
     '插件',
@@ -314,7 +334,8 @@ export default {
     'Plugin',
     'Плагин',
     'プラグイン',
-    '플러그인'
+    '플러그인',
+    viTranslations.ADMIN_CONFIG_CATEGORY_PLUGIN
   ],
   [S.ACC + '_PRIVACY']: [
     '隐私',
@@ -323,7 +344,8 @@ export default {
     'Privacy',
     'Шахсий қоидалар',
     'プライバシー',
-    '개인정보'
+    '개인정보',
+    viTranslations.ADMIN_CONFIG_CATEGORY_PRIVACY
   ],
   [S.ACC + '_SPAM']: [
     '反垃圾',
@@ -332,7 +354,8 @@ export default {
     'Spam',
     'Спам',
     'スパム対策',
-    '스팸 관리'
+    '스팸 관리',
+    viTranslations.ADMIN_CONFIG_CATEGORY_SPAM
   ],
   ADMIN_CONFIG_EMAIL_TEST: [
     '邮件通知测试',
@@ -341,7 +364,8 @@ export default {
     'Email notification test',
     'Электрон почта хабарномаси тести',
     'メール通知テスト',
-    '이메일 알림 테스트'
+    '이메일 알림 테스트',
+    viTranslations.ADMIN_CONFIG_EMAIL_TEST
   ],
   ADMIN_CONFIG_EMAIL_TEST_BTN: [
     '发送测试邮件',
@@ -350,7 +374,8 @@ export default {
     'Send test mail',
     'Синов хатини юбориш',
     'テストメールを送信',
-    '테스트 메일 발송'
+    '테스트 메일 발송',
+    viTranslations.ADMIN_CONFIG_EMAIL_TEST_BTN
   ],
   ADMIN_CONFIG_EMAIL_TEST_HELP: [
     '输入一个邮箱地址，发送测试邮件',
@@ -359,7 +384,8 @@ export default {
     'Input an email address & send test mail',
     'Э-почта манзилини киритинг ва синов хатини юборинг',
     'メールアドレスを入力してテストメールを送信',
-    '이메일 주소를 입력하고 테스트 메일을 발송하세요'
+    '이메일 주소를 입력하고 테스트 메일을 발송하세요',
+    viTranslations.ADMIN_CONFIG_EMAIL_TEST_HELP
   ],
   ADMIN_CONFIG_EMAIL_TEST_RESULT: [
     '测试结果：',
@@ -368,7 +394,8 @@ export default {
     'Test result: ',
     'Тест натижаси: ',
     'テスト結果：',
-    '테스트 결과: '
+    '테스트 결과: ',
+    viTranslations.ADMIN_CONFIG_EMAIL_TEST_RESULT
   ],
   ADMIN_CONFIG_EXAMPLE: [
     '示例：',
@@ -377,7 +404,8 @@ export default {
     'Example: ',
     'Намуна: ',
     '例：',
-    '예시: '
+    '예시: ',
+    viTranslations.ADMIN_CONFIG_EXAMPLE
   ],
   [S.ACI + '_AKISMET_KEY']: [
     'Akismet 反垃圾评论，用于垃圾评论检测，设为 "MANUAL_REVIEW" 开启人工审核，留空不使用反垃圾。注册：https://akismet.com',
@@ -386,7 +414,8 @@ export default {
     'Akismet spam protection. Set to "MANUAL_REVIEW" to enable manual review. Leave it blank to not use anti-spam. Register Akismet: https://akismet.com',
     'Акисмет спам ҳимояси. Қўлда кўриб чиқишни ёқиш учун "MANUAL_REVIEW" га созланг. Анти-спамдан фойдаланмаслик учун уни бўш қолдиринг. Акисметни рўйхатдан ўтказиш: https://akismet.com',
     'Akismetは、スパムコメントの検出に使用されるアンチスパムサービスです。"MANUAL_REVIEW"に設定することで、手動レビューを有効化します。コメントのスパム対策にAkismetを使用することで、不要なコメントをブロックし、サイトのセキュリティを向上させることができます。 Akismetの詳細情報と登録は、https://akismet.com で提供されています。',
-    'Akismet 스팸 방지. 스팸 댓글 감지에 사용합니다. "MANUAL_REVIEW"를 설정하면 수동 검토를 활성화합니다. 비워두면 스팸 수동 검토를 사용하지 않습니다. Akismet 등록: https://akismet.com'
+    'Akismet 스팸 방지. 스팸 댓글 감지에 사용합니다. "MANUAL_REVIEW"를 설정하면 수동 검토를 활성화합니다. 비워두면 스팸 수동 검토를 사용하지 않습니다. Akismet 등록: https://akismet.com',
+    viTranslations.ADMIN_CONFIG_ITEM_AKISMET_KEY
   ],
   [S.ACI + '_BLOGGER_NICK']: [
     '博主的昵称。',
@@ -395,7 +424,8 @@ export default {
     'Admin nick name.',
     'Админ исми.',
     '管理者の名前。',
-    '관리자 닉네임.'
+    '관리자 닉네임.',
+    viTranslations.ADMIN_CONFIG_ITEM_BLOGGER_NICK
   ],
   [S.ACI + '_BLOGGER_EMAIL']: [
     '博主的邮箱地址，用于邮件通知、博主标识。',
@@ -404,7 +434,8 @@ export default {
     'Admin Email address. Used for Email notification and admin identification.',
     'Админ электрон почта манзили. Электрон почта хабарномаси ва администратор идентификацияси учун фойдаланилади.',
     '管理者のメールアドレス。メール通知と管理者の識別に使用されます。',
-    '관리자 이메일 주소. 이메일 알림 및 관리자 식별에 사용됩니다.'
+    '관리자 이메일 주소. 이메일 알림 및 관리자 식별에 사용됩니다.',
+    viTranslations.ADMIN_CONFIG_ITEM_BLOGGER_EMAIL
   ],
   [S.ACI + '_COMMENT_BG_IMG']: [
     '评论框自定义背景图片 URL 地址。',
@@ -413,7 +444,8 @@ export default {
     'URL for custom background image.',
     'Махсус фон расми учун УРЛ.',
     'コメントボックスのカスタム背景画像のURL。',
-    '댓글창 배경 이미지 URL 주소.'
+    '댓글창 배경 이미지 URL 주소.',
+    viTranslations.ADMIN_CONFIG_ITEM_COMMENT_BG_IMG
   ],
   [S.ACI + '_COMMENT_PAGE_SIZE']: [
     '评论列表分页大小，默认为 8。',
@@ -422,7 +454,8 @@ export default {
     'Comment page size. Default: 8.',
     'Изоҳ саҳифаси ўлчами. Стандарт: 8.',
     'コメントリストのページサイズ。デフォルトは8。',
-    '한 페이지당 표시 댓글 수. 기본값: 8.'
+    '한 페이지당 표시 댓글 수. 기본값: 8.',
+    viTranslations.ADMIN_CONFIG_ITEM_COMMENT_PAGE_SIZE
   ],
   [S.ACI + '_COMMENT_PLACEHOLDER']: [
     '评论框提示信息，可用<br>换行，默认为空',
@@ -431,7 +464,8 @@ export default {
     'Comment placeholder. Use <br> to start a newline. Default: empty.',
     'Изоҳ тўлдирувчиси. Янги қаторни бошлаш учун <бр> дан фойдаланинг. Стандарт: бўш.',
     'コメントボックスのヒントメッセージ。<br>で改行。デフォルトは空。',
-    '댓글 입력창에 표시될 기본 문구. <br> 태그로 줄바꿈 가능. 기본값: 비어 있음.'
+    '댓글 입력창에 표시될 기본 문구. <br> 태그로 줄바꿈 가능. 기본값: 비어 있음.',
+    viTranslations.ADMIN_CONFIG_ITEM_COMMENT_PLACEHOLDER
   ],
   [S.ACI + '_CORS_ALLOW_ORIGIN']: [
     'CORS 安全域名，注意：如果您不了解什么是 CORS，此项请留空，错误设置会导致无法加载，默认为空，格式为 https://blog.example.com；如需添加多域名请使用,分隔',
@@ -440,7 +474,8 @@ export default {
     'CORS allow origin, note: incorrect settings can cause loading failure. Default: blank, format: https://blog.example.com; If you need to add multiple domain names, please use, separate',
     'Версел СОРС келиб чиқишига рухсат беради, эътибор беринг: нотўғри созламалар юклашда хатоликка олиб келиши мумкин. Стандарт: бўш, формат: https://blog.example.com; Агар сиз бир нечта домен номларини қўшмоқчи бўлсангиз, илтимос, ажратишдан фойдаланинг.',
     'CORS セキュアドメイン。注意：誤った設定は読み込みエラーを引き起こす可能性があります。デフォルトは空、形式は https://blog.example.com です。複数のドメインを追加する場合は、コンマで区切ってください。',
-    '댓글 서버 접근 허용 웹사이트 주소. 참고: 등록된 웹사이트만 댓글 시스템과 안전하게 통신합니다. 주소 오류 시 댓글창이 사라질 수 있습니다. 기본값: 비어 있음(보안 취약), 형식: https://blog.example.com; 여러 주소는 쉼표(,)로 구분.'
+    '댓글 서버 접근 허용 웹사이트 주소. 참고: 등록된 웹사이트만 댓글 시스템과 안전하게 통신합니다. 주소 오류 시 댓글창이 사라질 수 있습니다. 기본값: 비어 있음(보안 취약), 형식: https://blog.example.com; 여러 주소는 쉼표(,)로 구분.',
+    viTranslations.ADMIN_CONFIG_ITEM_CORS_ALLOW_ORIGIN
   ],
   [S.ACI + '_DEFAULT_GRAVATAR']: [
     `默认的头像显示。默认值（留空）为 "initials"，可选：${defaultGravatar.join('、')}`,
@@ -449,7 +484,8 @@ export default {
     `Avatar placeholder. Default (when empty): "initials". Choose from: ${defaultGravatar.join(', ')}`,
     `Аватар тўлдирувчиси. Стандарт (агар бўш қолдирилса): «идентификатор». Қуйидагилардан танланг: ${defaultGravatar.join(', ')}`,
     `デフォルトのプロフィール画像表示。デフォルト（空欄時）は "initials" で、選択肢は：${defaultGravatar.join('、')} です`,
-    `프로필 기본 이미지. 기본값(비워둘 경우): "initials". 사용 가능 스타일: ${defaultGravatar.join(', ')}`
+    `프로필 기본 이미지. 기본값(비워둘 경우): "initials". 사용 가능 스타일: ${defaultGravatar.join(', ')}`,
+    viTranslations.ADMIN_CONFIG_ITEM_DEFAULT_GRAVATAR
   ],
   [S.ACI + '_EMOTION_CDN']: [
     '表情 CDN，英文逗号分隔。默认为：https://owo.imaegoo.com/owo.json',
@@ -458,7 +494,8 @@ export default {
     'Emoji CDN. Separate by comma. Default: https://owo.imaegoo.com/owo.json',
     'Emoji CDN. Вергул билан ажратинг. Default: https://owo.imaegoo.com/owo.json',
     '顔文字CDN。コンマで区切ってください。デフォルト：https://owo.imaegoo.com/owo.json',
-    '이모티콘 데이터 웹 주소. 쉼표(,)로 구분. 기본값: https://owo.imaegoo.com/owo.json'
+    '이모티콘 데이터 웹 주소. 쉼표(,)로 구분. 기본값: https://owo.imaegoo.com/owo.json',
+    viTranslations.ADMIN_CONFIG_ITEM_EMOTION_CDN
   ],
   [S.ACI + '_FORBIDDEN_WORDS']: [
     '违禁词配置，包含违禁词的内容会直接标记为垃圾评论。英文逗号分隔。',
@@ -467,7 +504,8 @@ export default {
     'Configure prohibited words. Comments containing prohibited words will be auto spammed. Separate by comma.',
     'Тақиқланган сўзларни созланг. Тақиқланган сўзларни ўз ичига олган шарҳлар автоматик равишда спамга юборилади. Вергул билан ажратинг.',
     '禁止ワード設定。禁止ワードを含むコンテンツは直ちにスパムコメントとしてマークされます。コンマで区切ってください。',
-    '금지어 설정. 금지어 포함 댓글은 스팸으로 숨김 처리 됩니다. 쉼표로 구분.'
+    '금지어 설정. 금지어 포함 댓글은 스팸으로 숨김 처리 됩니다. 쉼표로 구분.',
+    viTranslations.ADMIN_CONFIG_ITEM_FORBIDDEN_WORDS
   ],
   [S.ACI + '_BLOCKED_WORDS']: [
     '屏蔽词配置，包含屏蔽词的内容会直接评论失败。英文逗号分隔。',
@@ -476,7 +514,8 @@ export default {
     'Configure blocked words. Comments containing blocked words will fail to send. Separate by comma.',
     'Configure blocked words. Comments containing blocked words will fail to send. Separate by comma.',
     'ブロックワード設定。ブロックワードを含むコンテンツは送信に失敗します。コンマで区切ってください。',
-    '차단어 설정. 차단어 포함 댓글은 등록에 실패합니다. 쉼표로 구분.'
+    '차단어 설정. 차단어 포함 댓글은 등록에 실패합니다. 쉼표로 구분.',
+    viTranslations.ADMIN_CONFIG_ITEM_BLOCKED_WORDS
   ],
   [S.ACI + '_GRAVATAR_CDN']: [
     '自定义头像 CDN 地址。如：cn.gravatar.com, weavatar.com, cravatar.cn, sdn.geekzu.org, gravatar.loli.net，默认：weavatar.com',
@@ -485,7 +524,8 @@ export default {
     'Custom avator CDN. (Examples: gravatar.com) Default: weavatar.com.',
     'Custom avator CDN. (Мисоллар: gravatar.com) Default: weavatar.com.',
     'カスタムプロフィール画像CDNアドレス。例：cn.gravatar.com、weavatar.com、cravatar.cn、sdn.geekzu.org、gravatar.loli.net、デフォルト：weavatar.com',
-    '프로필 이미지(아바타) Gravatar 서버 주소. 더 빠르거나 안정적인 서버를 선택할 수 있습니다. (예: gravatar.com) 기본값: weavatar.com.'
+    '프로필 이미지(아바타) Gravatar 서버 주소. 더 빠르거나 안정적인 서버를 선택할 수 있습니다. (예: gravatar.com) 기본값: weavatar.com.',
+    viTranslations.ADMIN_CONFIG_ITEM_GRAVATAR_CDN
   ],
   [S.ACI + '_HIDE_ADMIN_CRYPT']: [
     '隐藏管理面板入口。可设置一个“暗号”，只有在“昵称”一栏输入相同的“暗号”时，管理面板入口才会显示，留空则不隐藏管理入口',
@@ -494,7 +534,8 @@ export default {
     'Set a cipher to hide the management panel entrance, only when the same cipher is entered in the nickname field the management panel entry will be displayed. Leave it blank to not hide the management entrance.',
     'Бошқарув панелига киришни яшириш учун шифрни ўрнатинг, фақат тахаллус майдонига худди шу шифр киритилганда бошқарув панелидаги ёзув кўрсатилади. Бошқарув киришини яширмаслик учун уни бўш қолдиринг.',
     '管理パネルのログイン画面を非表示にする。 "パスワード" を設定でき、 "名前" フィールドに同じ "パスワード" を入力した場合のみ、管理パネルのログイン画面が表示されます。空白の場合、管理パネルのログイン画面は非表示にされません。',
-    '환경설정 버튼을 숨깁니다. 암호를 설정하여, 닉네임 입력란에 동일한 암호를 입력해야만 환경설정 버튼이 표시됩니다. 비워두면 버튼을 숨기지 않습니다.'
+    '환경설정 버튼을 숨깁니다. 암호를 설정하여, 닉네임 입력란에 동일한 암호를 입력해야만 환경설정 버튼이 표시됩니다. 비워두면 버튼을 숨기지 않습니다.',
+    viTranslations.ADMIN_CONFIG_ITEM_HIDE_ADMIN_CRYPT
   ],
   [S.ACI + '_HIGHLIGHT']: [
     '启用代码高亮功能。如果您的主题和代码高亮有冲突，请设为 false。默认：true',
@@ -503,7 +544,8 @@ export default {
     'Enable code highlighting. If your theme conflicts with code highlighting, please set it to false. Default: true.',
     'Кодни ажратиб кўрсатишни ёқинг. Агар мавзуингиз кодни ажратиб кўрсатишга зид бўлса, уни «фалсе» га ўрнатинг. Стандарт: рост.',
     'コードハイライト機能を有効にします。テーマとコードハイライトに競合がある場合、falseに設定してください。デフォルト：true',
-    '코드 하이라이팅 기능을 활성화합니다. 테마와 코드 하이라이팅이 충돌하면 false로 설정하세요. 기본값: true.'
+    '코드 하이라이팅 기능을 활성화합니다. 테마와 코드 하이라이팅이 충돌하면 false로 설정하세요. 기본값: true.',
+    viTranslations.ADMIN_CONFIG_ITEM_HIGHLIGHT
   ],
   [S.ACI + '_HIGHLIGHT_THEME']: [
     `代码高亮主题，可选：${highlightThemes.join('、')}，访问 https://prismjs.com 可预览主题效果。如果您的主题和代码高亮有冲突，请设为 none。默认：none`,
@@ -512,7 +554,8 @@ export default {
     `Code highlighting theme. Select from: ${highlightThemes.join(', ')}. Visit https://prismjs.com for preview. If your theme conflicts with code highlighting, please set it to none. Default: none.`,
     `Кодни таъкидлаш мавзуси. Қуйидагилардан танланг: ${highlightThemes.join(', ')}. Олдиндан кўриш учун https://prismjs.com сайтига ташриф буюринг. Агар мавзуингиз кодни ажратиб кўрсатишга зид бўлса, уни «Ҳеч» га ўрнатинг. Стандарт: йўқ.`,
     `コードハイライトのテーマ。選択肢：${highlightThemes.join('、')}、テーマの効果をプレビューするには https://prismjs.com を訪問してください。テーマとコードハイライトに競合がある場合、noneに設定してください。デフォルト：none`,
-    `코드 하이라이팅 테마. 사용 가능 테마: ${highlightThemes.join(', ')}. https://prismjs.com 에서 미리보기를 확인하세요. 테마와 코드 하이라이팅이 충돌하면 none으로 설정하세요. 기본값: none.`
+    `코드 하이라이팅 테마. 사용 가능 테마: ${highlightThemes.join(', ')}. https://prismjs.com 에서 미리보기를 확인하세요. 테마와 코드 하이라이팅이 충돌하면 none으로 설정하세요. 기본값: none.`,
+    viTranslations.ADMIN_CONFIG_ITEM_HIGHLIGHT_THEME
   ],
   [S.ACI + '_HIGHLIGHT_PLUGIN']: [
     `代码高亮插件，可选：${highlightPlugins.join('、')}，分别表示：展示代码语言、展示代码拷贝按钮。可以同时设置多个选项，如果想要不添加任何代码高亮插件，请设为 none。默认：none。`,
@@ -521,7 +564,8 @@ export default {
     `Code highlight plug-in, optional: ${highlightPlugins.join(', ')}, respectively: show code language, show code copy button. Multiple options can be set at the same time, if you want to add no code highlighting plug-ins, please set it to none. Default: none. `,
     `Плагин подсветки кода, опционально: ${highlightPlugins.join(',')}, соответственно: показывать язык кода, показывать кнопку копирования кода. Вы можете установить несколько опций одновременно, если вы хотите не добавлять плагин подсветки кода, установите значение none. по умолчанию: none.`,
     `コード・ハイライト・プラグイン。オプション: ${highlightPlugins.join(',')}, それぞれ: コード言語の表示、コード・コピー・ボタンの表示。複数のオプションを同時に設定できますが、コード・ハイライト・プラグインを追加したくない場合は、noneに設定してください。`,
-    `코드 하이라이트 추가 기능. 선택 가능: ${highlightPlugins.join(', ')}. (코드 언어 표시, 복사 버튼) 여러 기능을 동시에 설정할 수 있으며, 추가하지 않으려면 none으로 설정하세요. 기본값: none.`
+    `코드 하이라이트 추가 기능. 선택 가능: ${highlightPlugins.join(', ')}. (코드 언어 표시, 복사 버튼) 여러 기능을 동시에 설정할 수 있으며, 추가하지 않으려면 none으로 설정하세요. 기본값: none.`,
+    viTranslations.ADMIN_CONFIG_ITEM_HIGHLIGHT_PLUGIN
   ],
   [S.ACI + '_IMAGE_CDN']: [
     `插入图片所使用的图床，目前支持：${imageBedServices.join('、')}`,
@@ -530,7 +574,8 @@ export default {
     `The image bed for image uploading. Select from: ${imageBedServices.join(', ')}`,
     `Расм юклаш учун расм тўшаги. Қуйидагилардан танланг: ${imageBedServices.join(', ')}`,
     `画像のアップロードに使用する画像ホスティングサービス。次のうちから選択してください：${imageBedServices.join('、')}`,
-    `댓글 이미지 업로드 기능에 사용될 호스팅 서비스. 사용 가능 목록: ${imageBedServices.join(', ')}`
+    `댓글 이미지 업로드 기능에 사용될 호스팅 서비스. 사용 가능 목록: ${imageBedServices.join(', ')}`,
+    viTranslations.ADMIN_CONFIG_ITEM_IMAGE_CDN
   ],
   // 翻译来自 Deepseek
   [S.ACI + '_IMAGE_CDN_URL']: [
@@ -540,7 +585,8 @@ export default {
     `The URL for the image bed. Required if your IMAGE_CDN is one of these: ${customImageBedServices.join(', ')}`, // 英文
     `IMAGE_CDN томонидан белгиланган расм тўшаги URL. Агар сизнинг IMAGE_CDN шулардан бири бўлса: ${customImageBedServices.join(', ')}`, // 乌兹别克语
     `IMAGE_CDNで設定した画像ホスティングサービスのURL。IMAGE_CDNが以下のいずれかの場合は入力が必要です：${customImageBedServices.join('、')}`, // 日语
-    '이미지 저장소 URL. IMAGE_CDN 설정이 다음 중 하나인 경우 필요합니다: ${customImageBedServices.join(', ')}'
+    '이미지 저장소 URL. IMAGE_CDN 설정이 다음 중 하나인 경우 필요합니다: ${customImageBedServices.join(', ')}',
+    viTranslations.ADMIN_CONFIG_ITEM_IMAGE_CDN_URL
   ],
   [S.ACI + '_IMAGE_CDN_TOKEN']: [
     '图床 token。qcloud 图床无需设置',
@@ -549,7 +595,8 @@ export default {
     'The image bed token. Unnessessary for qcloud',
     'Тасвир токен белгиси. Қслоуд учун кераксиз',
     '画像ホスティングトークン。qcloud画像ホスティングを利用する場合は設定の必要はありません',
-    '이미지 호스팅 토큰. qcloud은 설정 불필요.'
+    '이미지 호스팅 토큰. qcloud은 설정 불필요.',
+    viTranslations.ADMIN_CONFIG_ITEM_IMAGE_CDN_TOKEN
   ],
   [S.ACI + '_LIGHTBOX']: [
     '使用简易图片点击放大效果。默认：false',
@@ -558,7 +605,8 @@ export default {
     'Use simple Lightbox effect. Default: false',
     'Используйте простые эффекты лайтбокса. По умолчанию: false',
     'シンプルな画像拡大機能を使用します。デフォルト：false',
-    '라이트박스 효과, 댓글 이미지 클릭 시 확대 효과 사용. 기본값: false'
+    '라이트박스 효과, 댓글 이미지 클릭 시 확대 효과 사용. 기본값: false',
+    viTranslations.ADMIN_CONFIG_ITEM_LIGHTBOX
   ],
   [S.ACI + '_LIMIT_PER_MINUTE']: [
     '单个 IP 发言频率限制（条/10分钟），0 为无限制，默认：10',
@@ -567,7 +615,8 @@ export default {
     'How many comments can be posted by each IP every 10 minutes, 0 is unlimited, default: 10.',
     'Ҳар бир ИП ҳар 10 дақиқада қанча шарҳ қолдириши мумкин, 0 чексиз, стандарт: 10.',
     '同一IPにおける10分ごとの投稿回数制限。0は無制限、デフォルト：10',
-    'IP별 댓글 작성 빈도 제한 (10분당 건수), 0은 무제한. 기본값: 10.'
+    'IP별 댓글 작성 빈도 제한 (10분당 건수), 0은 무제한. 기본값: 10.',
+    viTranslations.ADMIN_CONFIG_ITEM_LIMIT_PER_MINUTE
   ],
   [S.ACI + '_LIMIT_PER_MINUTE_ALL']: [
     '全站发言频率限制（条/10分钟），0 为无限制，默认：10',
@@ -576,7 +625,8 @@ export default {
     'How many comments can be posted by all IPs every 10 minutes, 0 is unlimited, default: 10.',
     'Барча ИП-лар ҳар 10 дақиқада қанча шарҳ қўйиши мумкин, 0 чексиз, стандарт: 10.',
     '全IPにおける10分ごとの投稿回数制限。0は無制限、デフォルト：10',
-    '10분당 사이트 전체에 작성 가능한 총 댓글 수 제한. 0은 무제한. 기본값: 10.'
+    '10분당 사이트 전체에 작성 가능한 총 댓글 수 제한. 0은 무제한. 기본값: 10.',
+    viTranslations.ADMIN_CONFIG_ITEM_LIMIT_PER_MINUTE_ALL
   ],
   [S.ACI + '_LIMIT_LENGTH']: [
     '评论长度限制，0 为无限制，默认：500',
@@ -585,7 +635,8 @@ export default {
     'Comment length limitation, 0 is unlimited, default: 500.',
     'Шарҳ узунлиги чеклови, 0 чексиз, стандарт: 500.',
     'コメント長さの制限。0は無制限、デフォルト：500',
-    '댓글 길이 제한. 0은 무제한. 기본값: 500.'
+    '댓글 길이 제한. 0은 무제한. 기본값: 500.',
+    viTranslations.ADMIN_CONFIG_ITEM_LIMIT_LENGTH
   ],
   [S.ACI + '_MAIL_SUBJECT']: [
     '自定义通知邮件主题，留空则使用默认主题。',
@@ -594,7 +645,8 @@ export default {
     'Custom Email notification subject. Leave it blank to use the default subject.',
     'Махсус электрон почта хабарномаси мавзуси. Стандарт мавзуни ишлатиш учун уни бўш қолдиринг.',
     'カスタム通知メールの件名。空白の場合はデフォルトの件名を使用します。',
-    '댓글 알림 이메일 제목 설정. 비워두면 기본 제목을 사용합니다.'
+    '댓글 알림 이메일 제목 설정. 비워두면 기본 제목을 사용합니다.',
+    viTranslations.ADMIN_CONFIG_ITEM_MAIL_SUBJECT
   ],
   [S.ACI + '_MAIL_SUBJECT_ADMIN']: [
     '自定义博主通知邮件主题，留空则使用默认主题。',
@@ -603,7 +655,8 @@ export default {
     'Custom admin Email notification subject. Leave it blank to use the default subject.',
     'Махсус администратор электрон почта хабарномаси мавзуси. Стандарт мавзуни ишлатиш учун уни бўш қолдиринг.',
     '管理者へのカスタム通知メールの件名。空白の場合はデフォルトの件名を使用します。',
-    '관리자에게 발송되는 댓글 알림 이메일 제목 설정. 비워두면 기본 제목을 사용합니다.'
+    '관리자에게 발송되는 댓글 알림 이메일 제목 설정. 비워두면 기본 제목을 사용합니다.',
+    viTranslations.ADMIN_CONFIG_ITEM_MAIL_SUBJECT_ADMIN
   ],
   [S.ACI + '_MAIL_TEMPLATE']: [
     '自定义通知邮件模板，留空则使用默认模板。可包含的字段：${SITE_URL}, ${SITE_NAME}, ${PARENT_NICK}, ${PARENT_COMMENT}, ${NICK}, ${COMMENT}, ${POST_URL}, ${IMG}, ${PARENT_IMG}',
@@ -612,7 +665,8 @@ export default {
     'Custom Email notification template. Leave it blank to use the default template. Fields that can be included: ${SITE_URL}, ${SITE_NAME}, ${NICK}, ${COMMENT}, ${POST_URL}, ${IMG}, ${PARENT_IMG}',
     'Махсус электрон почта хабарномаси шаблони. Стандарт шаблонни ишлатиш учун уни бўш қолдиринг. Қўшилиши мумкин бўлган майдонлар:  ${SITE_URL}, ${SITE_NAME}, ${NICK}, ${COMMENT}, ${POST_URL}, ${IMG}, ${PARENT_IMG}',
     'カスタム通知メールテンプレート。空白の場合はデフォルトテンプレートを使用します。使用可能なフィールド：${SITE_URL}、${SITE_NAME}、${PARENT_NICK}、${PARENT_COMMENT}、${NICK}、${COMMENT}、${POST_URL}、${IMG}、${PARENT_IMG}',
-    '댓글 알림 이메일 템플릿 설정. 비워두면 기본 템플릿 사용. 다음 변수를 사용하면 해당 값으로 자동 치환됩니다: ${SITE_URL}, ${SITE_NAME}, ${PARENT_NICK}, ${PARENT_COMMENT}, ${NICK}, ${COMMENT}, ${POST_URL}, ${IMG}, ${PARENT_IMG}'
+    '댓글 알림 이메일 템플릿 설정. 비워두면 기본 템플릿 사용. 다음 변수를 사용하면 해당 값으로 자동 치환됩니다: ${SITE_URL}, ${SITE_NAME}, ${PARENT_NICK}, ${PARENT_COMMENT}, ${NICK}, ${COMMENT}, ${POST_URL}, ${IMG}, ${PARENT_IMG}',
+    viTranslations.ADMIN_CONFIG_ITEM_MAIL_TEMPLATE
   ],
   [S.ACI + '_MAIL_TEMPLATE_ADMIN']: [
     '自定义博主通知邮件模板，留空则使用默认模板。可包含的字段：${SITE_URL}, ${SITE_NAME}, ${NICK}, ${COMMENT}, ${POST_URL}, ${IP}, ${MAIL}, ${IMG}',
@@ -621,7 +675,8 @@ export default {
     'Custom admin Email notification template. Leave it blank to use the default template. Fields that can be included: ${SITE_URL}, ${SITE_NAME}, ${NICK}, ${COMMENT}, ${POST_URL}, ${IP}, ${MAIL}, ${IMG}',
     'Махсус администратор электрон почта хабарномаси шаблони. Стандарт шаблонни ишлатиш учун уни бўш қолдиринг. Қўшилиши мумкин бўлган майдонлар:  ${SITE_URL}, ${SITE_NAME}, ${NICK}, ${COMMENT}, ${POST_URL}, ${IMG}, ${PARENT_IMG}',
     '管理者へのカスタム通知メールテンプレート。空白の場合はデフォルトテンプレートを使用します。使用可能なフィールド：${SITE_URL}、${SITE_NAME}、${NICK}、${COMMENT}、${POST_URL}、${IP}、${MAIL}、${IMG}',
-    '관리자 알림 이메일 템플릿 설정. 비워두면 기본 템플릿 사용. 다음 변수를 사용하면 해당 값으로 자동 치환됩니다: ${SITE_URL}, ${SITE_NAME}, ${NICK}, ${COMMENT}, ${POST_URL}, ${IP}, ${MAIL}, ${IMG}'
+    '관리자 알림 이메일 템플릿 설정. 비워두면 기본 템플릿 사용. 다음 변수를 사용하면 해당 값으로 자동 치환됩니다: ${SITE_URL}, ${SITE_NAME}, ${NICK}, ${COMMENT}, ${POST_URL}, ${IP}, ${MAIL}, ${IMG}',
+    viTranslations.ADMIN_CONFIG_ITEM_MAIL_TEMPLATE_ADMIN
   ],
   [S.ACI + '_MASTER_TAG']: [
     '博主标识自定义文字，默认为 “博主”。',
@@ -630,7 +685,8 @@ export default {
     'Custom admin identifier.',
     'Махсус администратор идентификатори.',
     '管理者を表すカスタムテキスト。デフォルト："ブロガー"',
-    '관리자 태그 설정. (닉네임 옆에 표시됨. 예: 관리자)'
+    '관리자 태그 설정. (닉네임 옆에 표시됨. 예: 관리자)',
+    viTranslations.ADMIN_CONFIG_ITEM_MASTER_TAG
   ],
   [S.ACI + '_NOTIFY_SPAM']: [
     '垃圾评论是否发送通知，默认：true',
@@ -639,7 +695,8 @@ export default {
     'Notifications for spam comments. Default: true.',
     'Спам шарҳлар учун билдиришномалар. Стандарт: рост.',
     'スパムコメントの通知を送信するかどうか。デフォルト：true',
-    '스팸 댓글 알림 발송 여부. 기본값: true.'
+    '스팸 댓글 알림 발송 여부. 기본값: true.',
+    viTranslations.ADMIN_CONFIG_ITEM_NOTIFY_SPAM
   ],
   [S.ACI + '_TURNSTILE_SITE_KEY']: [
     'Turnstile 验证码的站点密钥。申请地址: https://dash.cloudflare.com/?to=/:account/turnstile',
@@ -648,7 +705,8 @@ export default {
     'Turnstile CAPTCHA Site Key. Get from: https://dash.cloudflare.com/?to=/:account/turnstile',
     'Turnstile CAPTCHA Site Key. Get from: https://dash.cloudflare.com/?to=/:account/turnstile',
     'Turnstile CAPTCHAのサイトキー。参照: https://dash.cloudflare.com/?to=/:account/turnstile',
-    'Turnstile CAPTCHA(스팸봇 방지) 사이트 키. 발급처: https://dash.cloudflare.com/?to=/:account/turnstile'
+    'Turnstile CAPTCHA(스팸봇 방지) 사이트 키. 발급처: https://dash.cloudflare.com/?to=/:account/turnstile',
+    viTranslations.ADMIN_CONFIG_ITEM_TURNSTILE_SITE_KEY
   ],
   [S.ACI + '_TURNSTILE_SECRET_KEY']: [
     'Turnstile 验证码的密钥',
@@ -657,7 +715,8 @@ export default {
     'Turnstile CAPTCHA Secret Key',
     'Turnstile CAPTCHA Secret Key',
     'Turnstile CAPTCHAのシークレットキー',
-    'Turnstile CAPTCHA Secret Key'
+    'Turnstile CAPTCHA Secret Key',
+    viTranslations.ADMIN_CONFIG_ITEM_TURNSTILE_SECRET_KEY
   ],
   [S.ACI + '_QCLOUD_SECRET_ID']: [
     '腾讯云 secret id，用于垃圾评论检测。同时设置腾讯云和 Akismet 时，只有腾讯云会生效。注册：https://twikoo.js.org/cms.html',
@@ -666,7 +725,8 @@ export default {
     'Tencent Cloud secret id for spam detection. When Tencent Cloud and Akismet are set at the same time, only Tencent Cloud will take effect. Register: https://twikoo.js.org/cms.html',
     'Спамни аниқлаш учун Тенсент Слоуд махфий идентификатори. Тенсент Слоуд ва Акисмет бир вақтнинг ўзида ўрнатилганда, фақат Тенсент Слоуд кучга киради. Рўйхатдан ўтиш: https://twikoo.js.org/cms.html',
     'Tencent CloudのシークレットID。スパムコメントの検出に使用されます。同時にTencent CloudとAkismetを設定した場合、Tencent Cloudのみが有効になります。登録：https://twikoo.js.org/cms.html',
-    'Tencent Cloud secret id (스팸 감지용). Tencent Cloud와 Akismet 동시 설정 시 Tencent Cloud만 적용. 등록: https://twikoo.js.org/cms.html'
+    'Tencent Cloud secret id (스팸 감지용). Tencent Cloud와 Akismet 동시 설정 시 Tencent Cloud만 적용. 등록: https://twikoo.js.org/cms.html',
+    viTranslations.ADMIN_CONFIG_ITEM_QCLOUD_SECRET_ID
   ],
   [S.ACI + '_QCLOUD_CMS_BIZTYPE']: [
     '腾讯云内容安全 Biztype 名称，用于垃圾评论策略。可以自定义垃圾拦截规则',
@@ -675,7 +735,8 @@ export default {
     'Tencent Cloud Content Security Biztype name for spam comment policy. Spam blocking rules can be customized',
     'Tencent Cloud Content Security Biztype име, използвано за спам политика. Може да персонализира правилата за блокиране на спам',
     'Tencent Cloud Content Security Biztype name スパムコメントポリシー。スパムブロックルールはカスタマイズ可能',
-    'Tencent Cloud Content Security Biztype 이름 (스팸 댓글 정책용). 스팸 차단 규칙 설정 가능.'
+    'Tencent Cloud Content Security Biztype 이름 (스팸 댓글 정책용). 스팸 차단 규칙 설정 가능.',
+    viTranslations.ADMIN_CONFIG_ITEM_QCLOUD_CMS_BIZTYPE
   ],
   [S.ACI + '_QCLOUD_SECRET_KEY']: [
     '腾讯云 secret key',
@@ -684,7 +745,8 @@ export default {
     'Tencent Cloud secret key.',
     'Тенсент Клауд махфий калити.',
     'Tencent Cloudのシークレットキー',
-    'Tencent Cloud Secret Key.'
+    'Tencent Cloud Secret Key.',
+    viTranslations.ADMIN_CONFIG_ITEM_QCLOUD_SECRET_KEY
   ],
   [S.ACI + '_PUSHOO_CHANNEL']: [
     `即时消息推送平台名称，支持：${pushooChannels.join('、')} 等`,
@@ -693,7 +755,8 @@ export default {
     `IM notification push channel. Support: ${pushooChannels.join(', ')}`,
     `ИМ билдиришномаси суриш канали. Қўллаб-қувватлаш: ${pushooChannels.join(', ')}`,
     `即時メッセージプッシュプラットフォームの名前。${pushooChannels.join('、')} などに対応しています。`,
-    `실시간 알림을 받을 서비스 설정. 지원: ${pushooChannels.join(', ')}`
+    `실시간 알림을 받을 서비스 설정. 지원: ${pushooChannels.join(', ')}`,
+    viTranslations.ADMIN_CONFIG_ITEM_PUSHOO_CHANNEL
   ],
   [S.ACI + '_PUSHOO_TOKEN']: [
     '即时消息推送 token。请参考 https://pushoo.js.org 里的详细说明配置',
@@ -702,7 +765,8 @@ export default {
     'IM notification push token. See https://pushoo.js.org for details',
     'ИМ билдиришномаси пуш токени. Тафсилотлар учун https://pushoo.js.org га қаранг',
     '即時メッセージプッシュトークン。詳細な設定については、https://pushoo.js.org の説明をご覧ください',
-    '선택한 실시간 알림 서비스 인증 토큰. 설정 방법은 https://pushoo.js.org 를 참조.'
+    '선택한 실시간 알림 서비스 인증 토큰. 설정 방법은 https://pushoo.js.org 를 참조.',
+    viTranslations.ADMIN_CONFIG_ITEM_PUSHOO_TOKEN
   ],
   [S.ACI + '_DISPLAYED_FIELDS']: [
     '界面上展示的输入框，默认：nick,mail,link',
@@ -711,7 +775,8 @@ export default {
     'Input boxes displayed on the interface. Default: nick,mail,link',
     'Поля ввода, отображаемые на интерфейсе, Стандарт: nick,mail,link',
     '画面に表示される入力欄。デフォルト：nick,mail,link',
-    '화면에 표시할 정보 입력란. 기본값: nick,mail,link'
+    '화면에 표시할 정보 입력란. 기본값: nick,mail,link',
+    viTranslations.ADMIN_CONFIG_ITEM_DISPLAYED_FIELDS
   ],
   [S.ACI + '_REQUIRED_FIELDS']: [
     '评论必填信息，设为 nick,mail,link 代表全必填，设为 none 代表全选填，默认：nick,mail',
@@ -720,7 +785,8 @@ export default {
     'Required fields for comments. Set to "nick,mail,link" means all fields are required. Set to "none" means all fields are optional. Default: nick,mail.',
     'Шарҳлар учун зарур майдонлар. «Ниск,маил,линк» га ўрнатилган бўлса, барча майдонлар талаб қилинади. «Йўқ» га ўрнатилиши барча майдонлар ихтиёрий эканлигини англатади. Стандарт: ник, почта.',
     'コメント必須項目。すべてを必須にする場合は nick,mail,link に設定、すべてを任意にする場合はnoneに設定してください。デフォルト：nick,mail',
-    '댓글 작성 시 필수 입력 정보. "nick,mail,link"는 모두 필수, "none"은 모두 선택 압력. 기본값: nick,mail.'
+    '댓글 작성 시 필수 입력 정보. "nick,mail,link"는 모두 필수, "none"은 모두 선택 압력. 기본값: nick,mail.',
+    viTranslations.ADMIN_CONFIG_ITEM_REQUIRED_FIELDS
   ],
   [S.ACI + '_SC_MAIL_NOTIFY']: [
     '是否同时通过 IM 和邮件 2 种方式通知博主，默认只通过 IM 通知博主，默认：false',
@@ -729,7 +795,8 @@ export default {
     'Whether to notify admin via IM and email at the same time, the default is to notify admin only via IM. Default: false.',
     'Администраторни бир вақтнинг ўзида ИМ ва электрон почта орқали хабардор қилиш керакми, сукут бўйича администраторни фақат ИМ орқали хабардор қилиш керак. Стандарт: нотўғри.',
     '管理者にIMとメールで同時に通知するかどうか。デフォルトはIMのみで通知、デフォルト：false',
-    '실시간 알림과 이메일로 동시에 관리자에게 알릴지 여부. 기본값은 실시간 알림만 사용. 기본값: false.'
+    '실시간 알림과 이메일로 동시에 관리자에게 알릴지 여부. 기본값은 실시간 알림만 사용. 기본값: false.',
+    viTranslations.ADMIN_CONFIG_ITEM_SC_MAIL_NOTIFY
   ],
   [S.ACI + '_SENDER_EMAIL']: [
     '邮件通知邮箱地址。对于大多数邮箱服务商，SENDER_EMAIL 必须和 SMTP_USER 保持一致，否则无法发送邮件。',
@@ -738,7 +805,8 @@ export default {
     'Email address for Email notification. For most email service providers, SENDER_EMAIL must be consistent with SMTP_USER, otherwise emails cannot be sent.',
     'Электрон почта хабарномаси учун электрон почта манзили. Аксарият электрон почта хизмати провайдерлари учун  SENDER_EMAIL билан мос келиши керак, акс ҳолда электрон почта хабарларини юбориб бўлмайди.',
     'メール通知のメールアドレス。 ほとんどのメールボックス・プロバイダでは、SENDER_EMAILはSMTP_USERと同じでなければなりません。',
-    '알림 이메일 발신 주소. 대부분의 이메일 서비스 제공자의 경우 SENDER_EMAIL과 SMTP_USER가 일치해야 메일 발송이 가능합니다.'
+    '알림 이메일 발신 주소. 대부분의 이메일 서비스 제공자의 경우 SENDER_EMAIL과 SMTP_USER가 일치해야 메일 발송이 가능합니다.',
+    viTranslations.ADMIN_CONFIG_ITEM_SENDER_EMAIL
   ],
   [S.ACI + '_SENDER_NAME']: [
     '邮件通知标题。',
@@ -747,7 +815,8 @@ export default {
     'The title for Email notification.',
     'Электрон почта хабарномаси сарлавҳаси.',
     'メール通知のタイトル',
-    '알림 이메일 발신자 이름.'
+    '알림 이메일 발신자 이름.',
+    viTranslations.ADMIN_CONFIG_ITEM_SENDER_NAME
   ],
   [S.ACI + '_SHOW_EMOTION']: [
     '启用插入表情功能，默认为：true',
@@ -756,7 +825,8 @@ export default {
     'Enable emojis. Default: true.',
     'Кулгичларни ёқинг. Стандарт: рост.',
     '顔文字の挿入を有効にするかどうか。デフォルト：true',
-    '이모티콘 삽입 기능 활성화. 기본값: true.'
+    '이모티콘 삽입 기능 활성화. 기본값: true.',
+    viTranslations.ADMIN_CONFIG_ITEM_SHOW_EMOTION
   ],
   [S.ACI + '_SHOW_IMAGE']: [
     '启用插入图片功能，默认为：true',
@@ -765,7 +835,8 @@ export default {
     'Enable picture uploading. Default: true.',
     'Расм юклашни ёқинг. Стандарт: рост.',
     '画像のアップロードを有効にするかどうか。デフォルト：true',
-    '이미지 업로드 기능 활성화. 기본값: true.'
+    '이미지 업로드 기능 활성화. 기본값: true.',
+    viTranslations.ADMIN_CONFIG_ITEM_SHOW_IMAGE
   ],
   [S.ACI + '_SHOW_UA']: [
     '是否显示用户系统和浏览器，默认为：true',
@@ -774,7 +845,8 @@ export default {
     'Show users\' OS and browser. Default: true.',
     'Фойдаланувчиларнинг ОС ва браузерини кўрсатиш. Стандарт: рост.',
     'ユーザーのOSとブラウザーの情報を表示するかどうか。デフォルト：true',
-    '댓글 작성자의 운영체제 및 브라우저 표시 여부. 기본값: true.'
+    '댓글 작성자의 운영체제 및 브라우저 표시 여부. 기본값: true.',
+    viTranslations.ADMIN_CONFIG_ITEM_SHOW_UA
   ],
   [S.ACI + '_SHOW_REGION']: [
     '是否显示用户 IP 属地到省，可能不准确，不支持 IPv6，默认为：false',
@@ -783,7 +855,8 @@ export default {
     'Show users\' IP region (province). Default: false.',
     'Фойдаланувчиларнинг ИП ҳудудини (вилоят) кўрсатиш. Стандарт: нотўғри.',
     'ユーザーIPの所在地（省）を表示するかどうか。正確でない場合があります。IPv6はサポートされていません。デフォルト：false',
-    '사용자 IP 지역(도/시 단위) 표시 여부 (부정확할 수 있음, IPv6 미지원). 기본값: false.'
+    '사용자 IP 지역(도/시 단위) 표시 여부 (부정확할 수 있음, IPv6 미지원). 기본값: false.',
+    viTranslations.ADMIN_CONFIG_ITEM_SHOW_REGION
   ],
   [S.ACI + '_SITE_NAME']: [
     '网站名称',
@@ -792,7 +865,8 @@ export default {
     'Website name.',
     'Вебсайт номи.',
     'ウェブサイト名',
-    '웹사이트 이름.'
+    '웹사이트 이름.',
+    viTranslations.ADMIN_CONFIG_ITEM_SITE_NAME
   ],
   [S.ACI + '_SITE_URL']: [
     '网站地址',
@@ -801,7 +875,8 @@ export default {
     'Website URL.',
     'Вебсайт URL.',
     'ウェブサイトのアドレス',
-    '웹사이트 주소.'
+    '웹사이트 주소.',
+    viTranslations.ADMIN_CONFIG_ITEM_SITE_URL
   ],
   [S.ACI + '_SMTP_HOST']: [
     '自定义 SMTP 服务器地址。如您已配置 SMTP_SERVICE，此项请留空。',
@@ -811,7 +886,8 @@ export default {
     'Махсус СМТП сервер манзили. Агар сиз СМТП_СEРВИСE созлаган бўлсангиз, уни бўш қолдиринг.',
     '自定义 SMTP 服务器地址。如您已配置 SMTP_SERVICE，此项请留空。',
     'カスタムSMTPサーバのアドレス。SMTP_SERVICEを設定している場合は空白のままにします。',
-    'SMTP 서버 주소. SMTP_SERVICE를 설정한 경우 비워두세요.'
+    'SMTP 서버 주소. SMTP_SERVICE를 설정한 경우 비워두세요.',
+    viTranslations.ADMIN_CONFIG_ITEM_SMTP_HOST
   ],
   [S.ACI + '_SMTP_PASS']: [
     '邮件通知邮箱密码，QQ、163邮箱请填写授权码。',
@@ -820,7 +896,8 @@ export default {
     'Email notification mailbox password. Enter authorization code for QQ/163 mail.',
     'Электрон почта хабарномаси почта қутиси пароли. ҚҚ/163 почтаси учун авторизация кодини киритинг.',
     'メール通知のメールボックスパスワード。QQ、163メールは認証コードを入力してください',
-    '알림 이메일 계정 SMTP용 비밀번호. (QQ, 163 등 대부분 별도의 앱 비밀번호/인증 코드 사용)'
+    '알림 이메일 계정 SMTP용 비밀번호. (QQ, 163 등 대부분 별도의 앱 비밀번호/인증 코드 사용)',
+    viTranslations.ADMIN_CONFIG_ITEM_SMTP_PASS
   ],
   [S.ACI + '_SMTP_PORT']: [
     '自定义 SMTP 端口。如您已配置 SMTP_SERVICE，此项请留空。',
@@ -829,7 +906,8 @@ export default {
     'Custom SMTP port. If you have configured SMTP_SERVICE, please leave it empty.',
     'Махсус СМТП порти. Агар сиз СМТП_СEРВИС созлаган бўлсангиз, уни бўш қолдиринг.',
     'カスタムSMTPポート。SMTP_SERVICEを設定している場合は、空白のままにします。',
-    'SMTP 포트. SMTP_SERVICE를 설정한 경우 비워두세요.'
+    'SMTP 포트. SMTP_SERVICE를 설정한 경우 비워두세요.',
+    viTranslations.ADMIN_CONFIG_ITEM_SMTP_PORT
   ],
   [S.ACI + '_SMTP_SECURE']: [
     '自定义 SMTP 是否使用TLS，请填写 true 或 false。如您已配置 SMTP_SERVICE，此项请留空。',
@@ -838,7 +916,8 @@ export default {
     'Custom TLS for SMTP. Enter "true" or "false". If you have configured SMTP_SERVICE, please leave it empty.',
     'СМТП учун махсус ТЛС. «Тўғри» ёки «нотўғри» ни киритинг. Агар сиз СМТП_СEРВИС созлаган бўлсангиз, уни бўш қолдиринг.',
     'SMTPがTLSを使用するかどうかをカスタマイズします。trueまたはfalseを記入してください。SMTP_SERVICEを設定している場合は、この項目を空白にしてください。',
-    'SMTP TLS 사용 여부 (true 또는 false 입력). SMTP_SERVICE를 설정한 경우 비워두세요.'
+    'SMTP TLS 사용 여부 (true 또는 false 입력). SMTP_SERVICE를 설정한 경우 비워두세요.',
+    viTranslations.ADMIN_CONFIG_ITEM_SMTP_SECURE
   ],
   [S.ACI + '_SMTP_SERVICE']: [
     `邮件通知邮箱服务商。支持：${smtpServices.join('、')}`,
@@ -847,7 +926,8 @@ export default {
     `Email service provider for Email notification. Support: ${smtpServices.join(', ')}`,
     `Электрон почта хабарномаси учун электрон почта хизмати провайдери. Қўллаб-қувватлаш: ${smtpServices.join(', ')}`,
     `メール通知メールボックスサービスプロバイダ。サポート: ${smtpServices.join(',')}.`,
-    `알림 발송 이메일 서비스 선택. 지원 목록: ${smtpServices.join(', ')}`
+    `알림 발송 이메일 서비스 선택. 지원 목록: ${smtpServices.join(', ')}`,
+    viTranslations.ADMIN_CONFIG_ITEM_SMTP_SERVICE
   ],
   [S.ACI + '_SMTP_USER']: [
     '邮件通知邮箱用户名。',
@@ -856,7 +936,8 @@ export default {
     'Email notification mailbox username.',
     'Электрон почта хабарномаси почта қутиси фойдаланувчи номи.',
     'メール通知のメールボックスユーザー名。',
-    '선택한 이메일 알림 서비스 아이디'
+    '선택한 이메일 알림 서비스 아이디',
+    viTranslations.ADMIN_CONFIG_ITEM_SMTP_USER
   ],
   ADMIN_CONFIG_RESET: [
     '重置',
@@ -865,7 +946,8 @@ export default {
     'Reset',
     'Ресет',
     'リセット',
-    '초기화'
+    '초기화',
+    viTranslations.ADMIN_CONFIG_RESET
   ],
   ADMIN_CONFIG_SAVE: [
     '保存',
@@ -874,7 +956,8 @@ export default {
     'Save',
     'Сақлаш',
     '保存',
-    '저장'
+    '저장',
+    viTranslations.ADMIN_CONFIG_SAVE
   ],
   ADMIN_CREDENTIALS: [
     '私钥文件',
@@ -883,7 +966,8 @@ export default {
     'Private key file',
     'Shaxsiy kalit fayli',
     '秘密鍵ファイル',
-    '개인 키 파일'
+    '개인 키 파일',
+    viTranslations.ADMIN_CREDENTIALS
   ],
   ADMIN_CREDENTIALS_FAQ: [
     '如何获得私钥',
@@ -892,7 +976,8 @@ export default {
     'How to get the private key',
     'Shaxsiy kalitni qanday olish mumkin',
     '秘密鍵を取得する方法',
-    '개인 키 발급 방법'
+    '개인 키 발급 방법',
+    viTranslations.ADMIN_CREDENTIALS_FAQ
   ],
   ADMIN_CREDENTIALS_PLACEHOLDER: [
     '请粘贴私钥文件内容',
@@ -901,7 +986,8 @@ export default {
     'Please paste the contents of the private key file',
     'Iltimos, shaxsiy kalit faylining mazmunini joylashtiring',
     '秘密鍵ファイルの内容を貼り付けてください',
-    '개인 키 파일 내용을 붙여넣으세요'
+    '개인 키 파일 내용을 붙여넣으세요',
+    viTranslations.ADMIN_CREDENTIALS_PLACEHOLDER
   ],
   ADMIN_FORGOT: [
     '忘记密码',
@@ -910,7 +996,8 @@ export default {
     'Forget your password',
     'Парол унутилган',
     'パスワードを忘れた',
-    '비밀번호 찾기'
+    '비밀번호 찾기',
+    viTranslations.ADMIN_FORGOT
   ],
   ADMIN_EXPORT: [
     '导出',
@@ -919,7 +1006,8 @@ export default {
     'Export',
     'Экспорт',
     'エクスポート',
-    '내보내기'
+    '내보내기',
+    viTranslations.ADMIN_EXPORT
   ],
   ADMIN_EXPORT_WARN: [
     '将全部数据导出为 JSON 文件。如果遇到评论较多、导出失败或缺失数据，请连接数据库手动导出',
@@ -928,7 +1016,8 @@ export default {
     'Export all data as a JSON file. If you encounter export failures or missing data, connect to the database to export manually',
     'Барча маълумотларни ЖСОН файли сифатида экспорт қилинг. Экспорт хатоси ёки этишмаётган маълумотларга дуч келсангиз, қўлда экспорт қилиш учун маълумотлар базасига уланинг',
     'すべてのデータをJSONファイルとしてエクスポートします。コメントが多く、エクスポートに失敗したりデータが欠落している場合は、データベースに手動で接続してエクスポートしてください',
-    '모든 데이터를 JSON 파일로 내보냅니다. 댓글이 많아 내보내기 실패 또는 데이터 누락 발생 시, 데이터베이스에 직접 연결하여 수동으로 내보내세요.'
+    '모든 데이터를 JSON 파일로 내보냅니다. 댓글이 많아 내보내기 실패 또는 데이터 누락 발생 시, 데이터베이스에 직접 연결하여 수동으로 내보내세요.',
+    viTranslations.ADMIN_EXPORT_WARN
   ],
   ADMIN_EXPORT_COMMENT: [
     '导出评论',
@@ -937,7 +1026,8 @@ export default {
     'Export comment',
     'Изохни экспорт килиш',
     'コメントをエクスポート',
-    '댓글 내보내기'
+    '댓글 내보내기',
+    viTranslations.ADMIN_EXPORT_COMMENT
   ],
   ADMIN_EXPORT_COUNTER: [
     '导出访问量',
@@ -946,7 +1036,8 @@ export default {
     'Export counter',
     'Экспорт сони',
     'ページビューをエクスポート',
-    '통계 내보내기'
+    '통계 내보내기',
+    viTranslations.ADMIN_EXPORT_COUNTER
   ],
   [S.AI]: [
     '导入',
@@ -955,7 +1046,8 @@ export default {
     'Import',
     'Импорт',
     'インポート',
-    '가져오기'
+    '가져오기',
+    viTranslations.ADMIN_IMPORT
   ],
   [S.AI + '_FILE_REQUIRED']: [
     '未选择文件',
@@ -964,7 +1056,8 @@ export default {
     'No file selected',
     'Файлни танланмади',
     'ファイルが選択されていません',
-    '파일이 선택되지 않았습니다'
+    '파일이 선택되지 않았습니다',
+    viTranslations.ADMIN_IMPORT_FILE_REQUIRED
   ],
   [S.AI + '_IMPORTED']: [
     '完成导入 ',
@@ -973,7 +1066,8 @@ export default {
     'Imported ',
     'Импорт қилинди ',
     'インポート完了 ',
-    '가져오기 완료 '
+    '가져오기 완료 ',
+    viTranslations.ADMIN_IMPORT_IMPORTED
   ],
   [S.AI + '_IMPORTING']: [
     '开始导入 ',
@@ -982,7 +1076,8 @@ export default {
     'Importing ',
     'Импорт қилинмоқда ',
     'インポートを開始 ',
-    '가져오는 중 '
+    '가져오는 중 ',
+    viTranslations.ADMIN_IMPORT_IMPORTING
   ],
   [S.AI + '_LOG']: [
     '日志',
@@ -991,7 +1086,8 @@ export default {
     'Log',
     'Лог',
     'システムログ',
-    '로그'
+    '로그',
+    viTranslations.ADMIN_IMPORT_LOG
   ],
   [S.AI + '_SELECT']: [
     '请选择',
@@ -1000,7 +1096,8 @@ export default {
     'Select',
     'Танланг',
     '選択してください',
-    '선택하세요'
+    '선택하세요',
+    viTranslations.ADMIN_IMPORT_SELECT
   ],
   [S.AI + '_SELECT_FILE']: [
     '选择文件',
@@ -1009,7 +1106,8 @@ export default {
     'Select file',
     'Файлни танланг',
     'ファイルを選択',
-    '파일 선택'
+    '파일 선택',
+    viTranslations.ADMIN_IMPORT_SELECT_FILE
   ],
   [S.AI + '_SELECT_SOURCE']: [
     '选择源系统',
@@ -1018,7 +1116,8 @@ export default {
     'Select source',
     'Манба танланг',
     'ソースを選択',
-    '가져올 댓글 데이터 선택'
+    '가져올 댓글 데이터 선택',
+    viTranslations.ADMIN_IMPORT_SELECT_SOURCE
   ],
   [S.AI + '_SOURCE_REQUIRED']: [
     '未选择源系统',
@@ -1027,7 +1126,8 @@ export default {
     'No source selected.',
     'Ҳеч қандай манба танланмаган.',
     'ソースが選択されていません',
-    '가져올 댓글 데이터가 선택되지 않았습니다.'
+    '가져올 댓글 데이터가 선택되지 않았습니다.',
+    viTranslations.ADMIN_IMPORT_SOURCE_REQUIRED
   ],
   [S.AI + '_START']: [
     '开始导入',
@@ -1036,7 +1136,8 @@ export default {
     'Start import',
     'Импортни бошлаш',
     'インポートを開始',
-    '가져오기 시작'
+    '가져오기 시작',
+    viTranslations.ADMIN_IMPORT_START
   ],
   [S.AI + '_STARTING']: [
     '开始导入',
@@ -1045,7 +1146,8 @@ export default {
     'Importing',
     'Импорт қилинмоқда',
     'インポート中です',
-    '가져오는 중'
+    '가져오는 중',
+    viTranslations.ADMIN_IMPORT_STARTING
   ],
   [S.AI + '_TIP_ARTALK']: [
     '请上传 JSON 格式的 Artalk 导出文件，文件名通常为 comments.data.json',
@@ -1054,7 +1156,8 @@ export default {
     'Please upload the Artalk export file in JSON format.The file name is usually comments.data.json',
     'Арталк экспорт файлини ЖСОН форматида юкланг. Файл номи одатда comments.data.json бўлади.',
     'JSON形式のArtalkエクスポートファイルをアップロードしてください。ファイル名は通常、comments.data.jsonです。',
-    'JSON 형식의 Artalk 내보내기 파일을 업로드하세요. 파일 이름은 보통 comments.data.json 입니다.'
+    'JSON 형식의 Artalk 내보내기 파일을 업로드하세요. 파일 이름은 보통 comments.data.json 입니다.',
+    viTranslations.ADMIN_IMPORT_TIP_ARTALK
   ],
   [S.AI + '_TIP_DISQUS']: [
     '请上传 XML 格式的 Disqus 导出文件，文件名通常为 [网站名称]-[导出时间]-all.xml',
@@ -1063,7 +1166,8 @@ export default {
     'Please upload the Disqus export file in XML format. The file name is usually [website name]-[export time]-all.xml',
     'Disqus экспорт файлини ХМЛ форматида юкланг. Файл номи одатда [веб-сайт номи]-[экспорт vaqti]-all.xml',
     'DisqusエクスポートファイルをXML形式でアップロードしてください。ファイル名は通常、[サイト名]-[エクスポート時間]-all.xmlです。',
-    'XML 형식의 Disqus 내보내기 파일을 업로드하세요. 파일 이름은 보통 [웹사이트이름]-[내보내기시간]-all.xml 입니다.'
+    'XML 형식의 Disqus 내보내기 파일을 업로드하세요. 파일 이름은 보통 [웹사이트이름]-[내보내기시간]-all.xml 입니다.',
+    viTranslations.ADMIN_IMPORT_TIP_DISQUS
   ],
   [S.AI + '_TIP_VALINE']: [
     '请上传 JSON 格式的 Valine 导出文件，文件名通常为 Comment.json',
@@ -1072,7 +1176,8 @@ export default {
     'Please upload the Valine export file in JSON format. The file name is usually Comment.json',
     'Илтимос, Валине экспорт файлини ЖСОН форматида юкланг. Файл номи одатда Comment.json',
     'JSON形式のValineエクスポートファイルをアップロードしてください。ファイル名は通常、Comment.jsonです。',
-    'JSON 형식의 Valine 내보내기 파일을 업로드하세요. 파일 이름은 보통 Comment.json 입니다.'
+    'JSON 형식의 Valine 내보내기 파일을 업로드하세요. 파일 이름은 보통 Comment.json 입니다.',
+    viTranslations.ADMIN_IMPORT_TIP_VALINE
   ],
   [S.AI + '_UPLOADED']: [
     '上传完成 ',
@@ -1081,7 +1186,8 @@ export default {
     'Uploaded ',
     'Юкланди ',
     'アップロード完了',
-    '업로드 완료 '
+    '업로드 완료 ',
+    viTranslations.ADMIN_IMPORT_UPLOADED
   ],
   [S.AI + '_UPLOADING']: [
     '已上传 ',
@@ -1090,7 +1196,8 @@ export default {
     'Uploading ',
     'Юкланмоқда ',
     'アップロード中です',
-    '업로드 중 '
+    '업로드 중 ',
+    viTranslations.ADMIN_IMPORT_UPLOADING
   ],
   [S.AI + '_WARN']: [
     '支持从其他评论系统的备份文件导入评论。\n数据是安全的，导入功能完全在您的云环境进行。\n建议在导入前备份 comment 数据库。',
@@ -1099,7 +1206,8 @@ export default {
     'Import comments from other comment systems.\nThe data is safe, and the import function is performed entirely in your cloud environment.\nPlease backup your comment database before importing.',
     'Бошқа шарҳ тизимларидан шарҳларни импорт қилинг.\nМаълумотлар хавфсиз ва импорт функцияси тўлиқ булутли муҳитда амалга оширилади.\nИмпорт қилишдан олдин шарҳлар маълумотлар базасини захираланг.',
     '他のコメントシステムのバックアップファイルからのインポートに対応。\nデータは安全で、インポート機能はすべてクラウド環境で実行されます。\nインポート前にコメントデータベースをバックアップすることを推奨します。',
-    '다른 댓글 시스템의 백업 파일에서 댓글을 가져올 수 있습니다.\n데이터 가져오기는 설정하신 클라우드에서만 안전하게 진행됩니다.\n가져오기 전에 댓글 데이터베이스를 백업하는 것이 좋습니다.'
+    '다른 댓글 시스템의 백업 파일에서 댓글을 가져올 수 있습니다.\n데이터 가져오기는 설정하신 클라우드에서만 안전하게 진행됩니다.\n가져오기 전에 댓글 데이터베이스를 백업하는 것이 좋습니다.',
+    viTranslations.ADMIN_IMPORT_WARN
   ],
   ADMIN_LOGIN: [
     '登录',
@@ -1108,7 +1216,8 @@ export default {
     'Sign in',
     'Тизимга кириш',
     'ログイン',
-    '로그인'
+    '로그인',
+    viTranslations.ADMIN_LOGIN
   ],
   ADMIN_LOGIN_TITLE: [
     'Twikoo 评论管理',
@@ -1117,7 +1226,8 @@ export default {
     'Twikoo Management Panel',
     'Twikoo Бошқарув Панели',
     'Twikoo コメント管理',
-    'Twikoo 관리자 패널'
+    'Twikoo 관리자 패널',
+    viTranslations.ADMIN_LOGIN_TITLE
   ],
   ADMIN_LOGOUT: [
     '退出登录',
@@ -1126,7 +1236,8 @@ export default {
     'Sign out',
     'Тизимдан чиқиш',
     'ログアウト',
-    '로그아웃'
+    '로그아웃',
+    viTranslations.ADMIN_LOGOUT
   ],
   ADMIN_NEED_UPDATE: [
     '若要使用评论管理，请更新 Twikoo 云函数',
@@ -1135,7 +1246,8 @@ export default {
     'A new version of Twikoo is required for comment management.',
     'Фикрларни бошқариш учун Твикоо нинг янги версияси талаб қилинади.',
     'コメント管理を使用するには、Twikoo クラウド関数を更新してください',
-    '새 버전의 댓글 관리를 사용하려면 Twikoo Cloud Function을 업데이트하세요.'
+    '새 버전의 댓글 관리를 사용하려면 Twikoo Cloud Function을 업데이트하세요.',
+    viTranslations.ADMIN_NEED_UPDATE
   ],
   ADMIN_PASSWORD: [
     '密码',
@@ -1144,7 +1256,8 @@ export default {
     'Password',
     'Пароль',
     'パスワード',
-    '비밀번호'
+    '비밀번호',
+    viTranslations.ADMIN_PASSWORD
   ],
   ADMIN_PASSWORD_PLACEHOLDER: [
     '请输入',
@@ -1153,7 +1266,8 @@ export default {
     'Enter your password...',
     'Паролингизни киритинг...',
     '入力してください',
-    '비밀번호를 입력하세요...'
+    '비밀번호를 입력하세요...',
+    viTranslations.ADMIN_PASSWORD_PLACEHOLDER
   ],
   ADMIN_PASSWORD_REQUIRED: [
     '请输入密码',
@@ -1162,7 +1276,8 @@ export default {
     'Please enter your password',
     'Илтимос, паролингизни киритинг',
     'パスワードを入力してください',
-    '비밀번호를 입력하세요'
+    '비밀번호를 입력하세요',
+    viTranslations.ADMIN_PASSWORD_REQUIRED
   ],
   ADMIN_REGIST: [
     '注册',
@@ -1171,7 +1286,8 @@ export default {
     'Register',
     'Рўйхатдан ўтиш',
     '登録',
-    '관리자 등록'
+    '관리자 등록',
+    viTranslations.ADMIN_REGIST
   ],
   ADMIN_REGIST_FAILED: [
     '注册失败',
@@ -1180,7 +1296,8 @@ export default {
     'Register failed',
     'Рўйхатдан ўтиш амалга ошмади',
     '登録に失敗しました',
-    '관리자 등록 실패'
+    '관리자 등록 실패',
+    viTranslations.ADMIN_REGIST_FAILED
   ],
   ADMIN_SET_PASSWORD: [
     '设置密码',
@@ -1189,7 +1306,8 @@ export default {
     'Set password',
     'Пароль қўйиш',
     'パスワードの設定',
-    '비밀번호 설정'
+    '비밀번호 설정',
+    viTranslations.ADMIN_SET_PASSWORD
   ],
   ADMIN_SET_PASSWORD_CONFIRM: [
     '确认密码',
@@ -1198,7 +1316,8 @@ export default {
     'Confirm password',
     'Паролни тасдиқланг',
     'パスワードの確認',
-    '비밀번호 확인'
+    '비밀번호 확인',
+    viTranslations.ADMIN_SET_PASSWORD_CONFIRM
   ],
   ADMIN_SET_PASSWORD_CONFIRM_PLACEHOLDER: [
     '确认密码',
@@ -1207,7 +1326,8 @@ export default {
     'Confirm password...',
     'Паролни тасдиқлаш...',
     'パスワードの確認',
-    '비밀번호 확인...'
+    '비밀번호 확인...',
+    viTranslations.ADMIN_SET_PASSWORD_CONFIRM_PLACEHOLDER
   ],
   ADMIN_SET_PASSWORD_PLACEHOLDER: [
     '密码',
@@ -1216,7 +1336,8 @@ export default {
     'Password',
     'Пароль',
     'パスワード',
-    '비밀번호'
+    '비밀번호',
+    viTranslations.ADMIN_SET_PASSWORD_PLACEHOLDER
   ],
   ADMIN_TITLE: [
     'Twikoo 管理面板',
@@ -1225,7 +1346,8 @@ export default {
     'Twikoo Management Panel',
     'Twikoo Бошқарув Панели',
     'Twikoo管理パネル',
-    'Twikoo 관리 패널'
+    'Twikoo 관리 패널',
+    viTranslations.ADMIN_TITLE
   ],
   COMMENTS_COUNT_SUFFIX: [
     ' 条评论',
@@ -1234,7 +1356,8 @@ export default {
     ' comments',
     ' изоҳлар',
     ' 件のコメント',
-    '개의 댓글'
+    '개의 댓글',
+    viTranslations.COMMENTS_COUNT_SUFFIX
   ],
   COMMENTS_EXPAND: [
     '查看更多',
@@ -1243,7 +1366,8 @@ export default {
     'Load more',
     'Давомини юклаш',
     'もっと見る',
-    '더 보기'
+    '더 보기',
+    viTranslations.COMMENTS_EXPAND
   ],
   COMMENTS_NO_COMMENTS: [
     '没有评论',
@@ -1252,7 +1376,8 @@ export default {
     'No comment',
     'Изоҳларсиз',
     'コメントはありません',
-    '아직 댓글이 없습니다.'
+    '아직 댓글이 없습니다.',
+    viTranslations.COMMENTS_NO_COMMENTS
   ],
   COMMENT_EXPAND: [
     '展开',
@@ -1261,7 +1386,8 @@ export default {
     'Read more',
     'Давомини ўқиш',
     '全文を表示',
-    '더 보기'
+    '더 보기',
+    viTranslations.COMMENT_EXPAND
   ],
   COMMENT_COLLAPSE: [
     '收起',
@@ -1270,7 +1396,8 @@ export default {
     'Collapse',
     'Очиш',
     '折りたたむ',
-    '접기'
+    '접기',
+    viTranslations.COMMENT_COLLAPSE
   ],
   COMMENT_MASTER_TAG: [
     '博主',
@@ -1279,7 +1406,8 @@ export default {
     'Admin',
     'Модератор',
     '管理者',
-    '관리자'
+    '관리자',
+    viTranslations.COMMENT_MASTER_TAG
   ],
   COMMENT_REPLIED: [
     '回复',
@@ -1288,7 +1416,8 @@ export default {
     'Reply',
     'Жавоб бериш',
     '返信',
-    '답글'
+    '답글',
+    viTranslations.COMMENT_REPLIED
   ],
   COMMENT_REVIEWING_TAG: [
     '审核中',
@@ -1297,7 +1426,8 @@ export default {
     'Pending',
     'Кутилмоқда',
     '検討中',
-    '검토 중'
+    '검토 중',
+    viTranslations.COMMENT_REVIEWING_TAG
   ],
   COMMENT_TOP_TAG: [
     '置顶',
@@ -1306,7 +1436,8 @@ export default {
     'Pinned',
     'Қадоқланган',
     '固定',
-    '고정됨'
+    '고정됨',
+    viTranslations.COMMENT_TOP_TAG
   ],
   COMMENT_FAILED: [
     '评论失败',
@@ -1315,7 +1446,8 @@ export default {
     'Comment failed',
     'Фикр билдирилмади',
     'コメント失敗',
-    '댓글 등록 실패'
+    '댓글 등록 실패',
+    viTranslations.COMMENT_FAILED
   ],
   META_INPUT_LINK: [
     '网址',
@@ -1324,7 +1456,8 @@ export default {
     'Website',
     'Веб-сайт',
     'ウェブサイト',
-    '웹사이트'
+    '웹사이트',
+    viTranslations.META_INPUT_LINK
   ],
   META_INPUT_MAIL: [
     '邮箱',
@@ -1333,7 +1466,8 @@ export default {
     'Email',
     'Email',
     'メールアドレス',
-    '이메일'
+    '이메일',
+    viTranslations.META_INPUT_MAIL
   ],
   META_INPUT_NICK: [
     '昵称',
@@ -1342,7 +1476,8 @@ export default {
     'Nickname',
     'Исм',
     '名前',
-    '닉네임'
+    '닉네임',
+    viTranslations.META_INPUT_NICK
   ],
   META_INPUT_NOT_REQUIRED: [
     '选填',
@@ -1351,7 +1486,8 @@ export default {
     'Optional',
     'Ихтиёрий',
     '任意',
-    '선택'
+    '선택',
+    viTranslations.META_INPUT_NOT_REQUIRED
   ],
   META_INPUT_REQUIRED: [
     '必填',
@@ -1360,7 +1496,8 @@ export default {
     'Required',
     'Мажбурий',
     '必須',
-    '필수'
+    '필수',
+    viTranslations.META_INPUT_REQUIRED
   ],
   PAGINATION_COUNT_PREFIX: [
     '共 ',
@@ -1369,7 +1506,8 @@ export default {
     '',
     '',
     '合計 ',
-    '총 '
+    '총 ',
+    viTranslations.PAGINATION_COUNT_PREFIX
   ],
   PAGINATION_COUNT_SUFFIX: [
     ' 条',
@@ -1378,7 +1516,8 @@ export default {
     ' entries',
     ' ёзувлар',
     ' 件',
-    '개'
+    '개',
+    viTranslations.PAGINATION_COUNT_SUFFIX
   ],
   PAGINATION_GOTO_PREFIX: [
     '前往',
@@ -1387,7 +1526,8 @@ export default {
     'Goto page',
     'Саҳифага ўтиш',
     'ページに移動',
-    '이동할 페이지: '
+    '이동할 페이지: ',
+    viTranslations.PAGINATION_GOTO_PREFIX
   ],
   PAGINATION_GOTO_SUFFIX: [
     '页',
@@ -1395,7 +1535,8 @@ export default {
     '頁',
     '',
     'ページ',
-    ''
+    '',
+    viTranslations.PAGINATION_GOTO_SUFFIX
   ],
   PAGINATION_PAGESIZE: [
     '条/页',
@@ -1404,7 +1545,8 @@ export default {
     'entries/page',
     'ёзувлар/саҳифа',
     '件/ページ',
-    '개/페이지'
+    '개/페이지',
+    viTranslations.PAGINATION_PAGESIZE
   ],
   SUBMIT_CANCEL: [
     '取消',
@@ -1413,7 +1555,8 @@ export default {
     'Cancel',
     'Бекор қилиш',
     'キャンセル',
-    '취소'
+    '취소',
+    viTranslations.SUBMIT_CANCEL
   ],
   SUBMIT_PREVIEW: [
     '预览',
@@ -1422,7 +1565,8 @@ export default {
     'Preview',
     'Кўриб чиқиш',
     'プレビュー',
-    '미리보기'
+    '미리보기',
+    viTranslations.SUBMIT_PREVIEW
   ],
   SUBMIT_SEND: [
     '发送',
@@ -1431,7 +1575,8 @@ export default {
     'Send',
     'Юбормоқ',
     '送信',
-    '등록'
+    '등록',
+    viTranslations.SUBMIT_SEND
   ],
   IMAGE_UPLOAD_PLACEHOLDER: [
     '图片上传中',
@@ -1440,7 +1585,8 @@ export default {
     'Uploading image',
     'Расм юклаш',
     '画像のアップロード中',
-    '이미지 업로드 중'
+    '이미지 업로드 중',
+    viTranslations.IMAGE_UPLOAD_PLACEHOLDER
   ],
   IMAGE_UPLOAD_FAILED: [
     '图片上传失败',
@@ -1449,7 +1595,8 @@ export default {
     'IMAGE UPLOAD FAILED',
     'РАСМ ЮКЛАНМАДИ',
     '画像のアップロード失敗',
-    '이미지 업로드 실패'
+    '이미지 업로드 실패',
+    viTranslations.IMAGE_UPLOAD_FAILED
   ],
   IMAGE_UPLOAD_FAILED_NO_CONF: [
     '博主未配置图床服务',
@@ -1458,7 +1605,8 @@ export default {
     'The blogger didn\'t configured any image bed service',
     'Муаллиф ҳеч қандай тасвир хизматини созламаган',
     '管理者が画像配信サービスを設定していません',
-    '블로거가 이미지 호스팅 서비스를 설정하지 않았습니다.'
+    '블로거가 이미지 호스팅 서비스를 설정하지 않았습니다.',
+    viTranslations.IMAGE_UPLOAD_FAILED_NO_CONF
   ],
   IMAGE_UPLOAD_PLEASE_WAIT: [
     '图片上传中，请稍候再发送',
@@ -1467,7 +1615,8 @@ export default {
     'Uploading image, please try again later',
     'Расм юкланмоқда, кейинроқ қайта уриниб кўринг',
     '画像のアップロードが完了するまでお待ちください',
-    '이미지 업로드 중입니다. 잠시 후 다시 시도해주세요.'
+    '이미지 업로드 중입니다. 잠시 후 다시 시도해주세요.',
+    viTranslations.IMAGE_UPLOAD_PLEASE_WAIT
   ],
   SUBMIT_SENDING: [
     '发送中',
@@ -1476,7 +1625,8 @@ export default {
     'Sending',
     'Юбориш',
     '送信中',
-    '등록 중'
+    '등록 중',
+    viTranslations.SUBMIT_SENDING
   ],
   TIMEAGO_DAYS: [
     '天前',
@@ -1485,7 +1635,8 @@ export default {
     'days ago',
     'кунлар олдин',
     '日前',
-    '일 전'
+    '일 전',
+    viTranslations.TIMEAGO_DAYS
   ],
   TIMEAGO_HOURS: [
     '小时前',
@@ -1494,7 +1645,8 @@ export default {
     'hours ago',
     'соатлар олдин',
     '時間前',
-    '시간 전'
+    '시간 전',
+    viTranslations.TIMEAGO_HOURS
   ],
   TIMEAGO_MINUTES: [
     '分钟前',
@@ -1503,7 +1655,8 @@ export default {
     'minutes ago',
     'дақиқалар олдин',
     '分前',
-    '분 전'
+    '분 전',
+    viTranslations.TIMEAGO_MINUTES
   ],
   TIMEAGO_NOW: [
     '刚刚',
@@ -1512,7 +1665,8 @@ export default {
     'Just now',
     'Ҳозиргина',
     'たった今',
-    '방금 전'
+    '방금 전',
+    viTranslations.TIMEAGO_NOW
   ],
   TIMEAGO_SECONDS: [
     '秒前',
@@ -1521,6 +1675,7 @@ export default {
     'seconds ago',
     'сониялар олдин',
     '秒前',
-    '초 전'
+    '초 전',
+    viTranslations.TIMEAGO_SECONDS
   ]
 }
