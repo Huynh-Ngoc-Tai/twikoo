@@ -1,3 +1,4 @@
+import viTranslations from './vi.js'; // Điều chỉnh đường dẫn nếu cần
 /* eslint-disable no-template-curly-in-string */
 
 /**
