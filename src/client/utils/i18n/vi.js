@@ -59,7 +59,7 @@ export default {
   ADMIN_CONFIG_ITEM_NOTIFY_SPAM: 'Thông báo cho các bình luận spam. Mặc định: true.',
   ADMIN_CONFIG_ITEM_TURNSTILE_SITE_KEY: 'Khóa trang web CAPTCHA Turnstile. Lấy từ: https://dash.cloudflare.com/?to=/:account/turnstile',
   ADMIN_CONFIG_ITEM_TURNSTILE_SECRET_KEY: 'Khóa bí mật CAPTCHA Turnstile',
-  ADMIN_CONFIG_ITEM_QCLOUD_SECRET_ID: 'ID bí mật Tencent Cloud để phát hiện spam. Khi Tencent Cloud và Akismet được đặt cùng lúc, chỉ Tencent Cloud có hiệu lực. Đăng ký: https://twikoo.js.org/cms.html'
+  ADMIN_CONFIG_ITEM_QCLOUD_SECRET_ID: 'ID bí mật Tencent Cloud để phát hiện spam. Khi Tencent Cloud và Akismet được đặt cùng lúc, chỉ Tencent Cloud có hiệu lực. Đăng ký: https://twikoo.js.org/cms.html',
   ADMIN_CONFIG_ITEM_QCLOUD_CMS_BIZTYPE: 'Tên Biztype bảo mật nội dung Tencent Cloud cho chính sách bình luận spam. Có thể tùy chỉnh quy tắc chặn spam',
   ADMIN_CONFIG_ITEM_QCLOUD_SECRET_KEY: 'Khóa bí mật Tencent Cloud.',
   ADMIN_CONFIG_ITEM_PUSHOO_CHANNEL: 'Kênh đẩy thông báo IM. Hỗ trợ: qmsg, serverchan, pushplus, pushplushxtrip, dingtalk, wecom, bark, gocqhttp, atri, pushdeer, igot, telegram, feishu',
