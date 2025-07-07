@@ -17,8 +17,8 @@ const langs = {
   'ja-jp': 5,
   ko: 6,
   'ko-kr': 6,
-  vi: 7,
-  'vi': 7
+  vi: 7, // Thêm tiếng Việt
+  'vi-vn': 7 // Thêm tiếng Việt
 }
 
 const defaultLanguage = 'zh-cn'
